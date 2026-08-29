@@ -1,0 +1,6 @@
+exercises:
+    1_Slider: { max_points: 0, disabled: true, translations: { en: 1_Slider } }
+    2_Gallery: { max_points: 0, disabled: true, translations: { en: 2_Gallery } }
+    '3_Gallery with filter': { max_points: 0, disabled: true, translations: { en: '3_Gallery with filter' } }
+    4_Menu: { max_points: 0, disabled: true, translations: { en: 4_Menu } }
+    5_Tooltips: { max_points: 0, disabled: true, translations: { en: 5_Tooltips } }

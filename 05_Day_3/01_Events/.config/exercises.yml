@@ -1,0 +1,11 @@
+exercises:
+    '1_Exercise 1': { max_points: 0, disabled: true, translations: { en: '1_Exercise 1' } }
+    '2_Exercise 2': { max_points: 0, disabled: true, translations: { en: '2_Exercise 2' } }
+    '3_Exercise 3': { max_points: 0, disabled: true, translations: { en: '3_Exercise 3' } }
+    '4_Exercise 4': { max_points: 0, disabled: true, translations: { en: '4_Exercise 4' } }
+    '5_Exercise 5': { max_points: 0, disabled: true, translations: { en: '5_Exercise 5' } }
+    '6_Exercise 6': { max_points: 0, disabled: true, translations: { en: '6_Exercise 6' } }
+    '7_Exercise 7': { max_points: 0, disabled: true, translations: { en: '7_Exercise 7' } }
+    '8_Exercise 8': { max_points: 0, disabled: true, translations: { en: '8_Exercise 8' } }
+    '9_Exercise 9': { max_points: 0, disabled: true, translations: { en: '9_Exercise 9' } }
+    '10_Exercise 10': { max_points: 0, disabled: true, translations: { en: '10_Exercise 10' } }

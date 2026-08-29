@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ES6 - Exercises</title>
+  <script src="https://fer-api.coderslab.pl/bootstrap/js/index.js"></script>
+  <script>new CL({
+    title: "ES6",
+    path: ["Object-oriented programming", "Exercise 3"]
+  });</script>
+</head>
+<body>
+
+<main class="container">
+  <div class="row">
+    <div class="col">
+      <div class='card'>
+        <div class='card-body'>
+          <form>
+            <div class='form-group'>
+              <label for="name">Name</label>
+              <input type="text" class='form-control' id='name' name="name" placeholder="Enter product name">
+            </div>
+            <div class="form-group">
+              <label for="proteins">Protein</label>
+              <input type="number" class='form-control' id='proteins' name="proteins" placeholder="Enter protein quantity">
+            </div>
+            <div class="form-group">
+              <label for="carbs">Carbohydrates</label>
+              <input type="number" class='form-control' id='carbs' name="carbs" placeholder="Enter carbohydrates quantity">
+            </div>
+            <div class="form-group">
+              <label for="fat">Fat</label>
+              <input type="number" class='form-control' id='fat' name="fat" placeholder="Enter fat quantity">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <h5 class="card-header">Product list</h5>
+        <div class="card-body">
+          <ul id="products"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="build/out.js"></script>
+</body>
+
+</html>
