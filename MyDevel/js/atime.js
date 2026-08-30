@@ -1,4 +1,4 @@
-console.log("start ... ");
+console.log("start atime.js ... ");
 
 
 function atime() {
@@ -10,11 +10,46 @@ function atime() {
         stradatetime.toLocaleString("cs-CZ");
 
     console.log(stradatetime);
-
     }
 
-atime();
+setInterval(atime(), 80); 
 
-setInterval(atime, 730);
+/*
+class timer {
+    constructor() {
+        this.atime = new Date();
+    }
+    set_atime() {
+        this.atime = new Date();
+        return this.atime;
+    }    
+    get_atime() {
+        return this.set_atime();
+    }      
+    get_atime_string() {
+        return this.get_atime().toLocaleString("cs-CZ");
+    }
+    log_atime() {
+        console.log(this.get_atime_string());
+    }
+    element_atime() {
+        document.getElementById("atime").textContent = this.get_atime_string();
+    }
+} 
 
-console.log("... complette");
+let  at = new timer;
+*/
+
+/*
+at.log_atime();
+
+at.element_atime();
+
+at.get_atime();
+
+at.log_atime(); */
+
+/* setInterval(at.element_atime(), 80); */
+
+
+console.log("... atime.js complette");
