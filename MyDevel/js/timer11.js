@@ -8,7 +8,7 @@
 const elementCfg = [
                         {
                             elementId: "currentTime",
-                            interval:  93,
+                            interval:  711,
                             format:    "YYYY-MM_DD_HH24:MI:SS"
                         },
                         {
@@ -85,7 +85,7 @@ class timer {
         console.log(" 03 - format:    " + format);
         console.log("element_setinterval - complette");*/
 
-        setInterval(at.element_atime.bind(at,elementId,format), interval);
+        setInterval(this.element_atime.bind(this,elementId,format), interval);
     } 
     element_find() {
         for (const conf of elementCfg) { 
